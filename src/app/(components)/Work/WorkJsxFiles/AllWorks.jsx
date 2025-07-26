@@ -23,7 +23,7 @@ function AllWorks() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/workapi/titleanddescripform")
+        fetch("https://optimize-agency.vercel.app/api/workapi/titleanddescripform")
             .then(res => res.json())
             .then(data => {
               setworkalltitle(data)
@@ -41,7 +41,7 @@ function AllWorks() {
     
     useEffect(() => {
 
-      fetch("http://localhost:3000/api/workapi/workprojectapi")
+      fetch("https://optimize-agency.vercel.app/api/workapi/workprojectapi")
           .then(res => res.json())
           .then(data => {
             setworkalldata(data)

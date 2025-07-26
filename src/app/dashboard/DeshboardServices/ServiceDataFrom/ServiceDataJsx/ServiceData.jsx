@@ -33,7 +33,7 @@ function ServiceData() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/sarviceapi/ServiceAllDataForm", {
+      const response = await fetch("https://optimize-agency.vercel.app/api/sarviceapi/ServiceAllDataForm", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(blogsData),

@@ -13,7 +13,7 @@ function AllProcessTitleTextListJsx() {
     
         useEffect(() => {
     
-            fetch("http://localhost:3000/api/processapi/AllProcessTitleTextapi")
+            fetch("https://optimize-agency.vercel.app/api/processapi/AllProcessTitleTextapi")
                 .then(res => res.json())
                 .then(data => {
                     setAllprocesstitletext(data)

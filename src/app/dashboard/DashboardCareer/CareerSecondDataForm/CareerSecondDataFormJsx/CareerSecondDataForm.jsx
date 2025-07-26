@@ -15,7 +15,7 @@ function CareerSecondDataForm() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerSecondDataCategoryFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerSecondDataCategoryFormapi")
       .then(res => res.json())
       .then(data => {
         setcareerAllcategory(data)
@@ -51,7 +51,7 @@ function CareerSecondDataForm() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/careerapi/CareerSecondDataFormapi", {
+      const response = await fetch("https://optimize-agency.vercel.app/api/careerapi/CareerSecondDataFormapi", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(blogsData),

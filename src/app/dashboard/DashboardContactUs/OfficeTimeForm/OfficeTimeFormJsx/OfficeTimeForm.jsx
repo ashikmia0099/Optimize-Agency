@@ -22,7 +22,7 @@ function OfficeTimeForm() {
       };
   
       try {
-          const response = await fetch("http://localhost:3000/api/contactusapi/contactusOpeningday", {
+          const response = await fetch("https://optimize-agency.vercel.app/api/contactusapi/contactusOpeningday", {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(data),

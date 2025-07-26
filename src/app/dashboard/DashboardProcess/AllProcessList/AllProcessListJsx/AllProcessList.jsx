@@ -11,7 +11,7 @@ function AllProcessList() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/processapi/AllProcessDataapi")
+        fetch("https://optimize-agency.vercel.app/api/processapi/AllProcessDataapi")
             .then(res => res.json())
             .then(data => {
                 setAllprocessData(data)

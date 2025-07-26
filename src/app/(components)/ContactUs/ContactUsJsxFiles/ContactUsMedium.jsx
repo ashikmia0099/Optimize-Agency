@@ -24,7 +24,7 @@ function ContactUsMedium() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/contactusapi/phoneEamilForm")
+    fetch("https://optimize-agency.vercel.app/api/contactusapi/phoneEamilForm")
       .then(res => res.json())
       .then(data => {
         setcontactUsMeium(data)

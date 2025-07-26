@@ -34,7 +34,7 @@ function AboutBannerForm() {
         };
 
         try {
-            const response = await fetch("http://localhost:3000/api/aboutapi/aboutbannerapi", {
+            const response = await fetch("https://optimize-agency.vercel.app/api/aboutapi/aboutbannerapi", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(blogsData),

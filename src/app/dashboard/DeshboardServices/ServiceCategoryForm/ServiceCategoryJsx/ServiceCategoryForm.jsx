@@ -25,7 +25,7 @@ function ServiceCategoryForm() {
             };
     
             try {
-                const response = await fetch("http://localhost:3000/api/sarviceapi/ServiceAllCategoryForm", {
+                const response = await fetch("https://optimize-agency.vercel.app/api/sarviceapi/ServiceAllCategoryForm", {
                     method: "POST",
                     headers: {
                         'Content-Type': "application/json"

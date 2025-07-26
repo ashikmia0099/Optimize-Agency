@@ -25,7 +25,7 @@ function CareerOpertunitys() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerFirstTitleFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerFirstTitleFormapi")
       .then(res => res.json())
       .then(data => {
         setcareeerFirsttitle(data)
@@ -44,7 +44,7 @@ function CareerOpertunitys() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerFirstDataFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerFirstDataFormapi")
       .then(res => res.json())
       .then(data => {
         setcareeerfirstdata(data)

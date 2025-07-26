@@ -113,7 +113,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/blogCategoryApi")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/blogCategoryApi")
             .then(res => res.json())
             .then(data => {
                 setblogallcategory(data)
@@ -128,7 +128,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/BlogPostapi")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/BlogPostapi")
             .then(res => res.json())
             .then(data => {
                 setblogs(data)
@@ -143,7 +143,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/sarviceapi/ServiceAllCategoryForm")
+        fetch("https://optimize-agency.vercel.app/api/sarviceapi/ServiceAllCategoryForm")
             .then(res => res.json())
             .then(data => {
                 setallCategoryService(data)
@@ -158,7 +158,7 @@ export const AuthProvider = ({ children }) => {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/sarviceapi/AllServiceNameForm")
+        fetch("https://optimize-agency.vercel.app/api/sarviceapi/AllServiceNameForm")
             .then(res => res.json())
             .then(data => {
                 setServiceName(data)

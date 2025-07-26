@@ -14,7 +14,7 @@ function BlogCategroy() {
         };
 
         try {
-            const response = await fetch("http://localhost:3000/api/blogsapi/blogCategoryApi", {
+            const response = await fetch("https://optimize-agency.vercel.app/api/blogsapi/blogCategoryApi", {
                 method: "POST",
                 headers: {
                     'Content-Type': "application/json"

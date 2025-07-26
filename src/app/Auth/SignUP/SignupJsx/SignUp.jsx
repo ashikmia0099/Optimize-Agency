@@ -66,7 +66,7 @@ function SignUp() {
                     Country: countryName
                 };
 
-                fetch("http://localhost:3000/api/signinsignup/Signupapi", {
+                fetch("https://optimize-agency.vercel.app/api/signinsignup/Signupapi", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

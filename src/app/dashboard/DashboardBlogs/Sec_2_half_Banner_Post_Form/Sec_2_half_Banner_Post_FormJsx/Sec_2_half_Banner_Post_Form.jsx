@@ -78,7 +78,7 @@ function Sec_2_half_Banner_Post_Form() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/blogsapi/Sec_2_half_Banner_Post_api", {
+      const response = await fetch("https://optimize-agency.vercel.app/api/blogsapi/Sec_2_half_Banner_Post_api", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(blogsData),

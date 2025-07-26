@@ -25,7 +25,7 @@ function CareerFirstDataForm() {
           };
   
           try {
-              const response = await fetch("http://localhost:3000/api/careerapi/CareerFirstDataFormapi", {
+              const response = await fetch("https://optimize-agency.vercel.app/api/careerapi/CareerFirstDataFormapi", {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
                   body: JSON.stringify(processdata),

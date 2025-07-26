@@ -20,7 +20,7 @@ function ProgrammingSection2() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/Sec_3_Card_Post_Form_api")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/Sec_3_Card_Post_Form_api")
             .then(res => res.json())
             .then(data => {
                 setSec_3_Card_Post_Form(data)

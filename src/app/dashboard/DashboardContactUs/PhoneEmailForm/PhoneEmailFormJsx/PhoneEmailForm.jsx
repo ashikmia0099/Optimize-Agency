@@ -26,7 +26,7 @@ function PhoneEmailForm() {
     };
 
     try {
-        const response = await fetch("http://localhost:3000/api/contactusapi/phoneEamilForm", {
+        const response = await fetch("https://optimize-agency.vercel.app/api/contactusapi/phoneEamilForm", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data),

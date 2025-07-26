@@ -25,7 +25,7 @@ function FollowUs() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/contactusapi/contactusOpeningday")
+    fetch("https://optimize-agency.vercel.app/api/contactusapi/contactusOpeningday")
       .then(res => res.json())
       .then(data => {
         setoppeningday(data)
@@ -43,7 +43,7 @@ function FollowUs() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/contactusapi/contactussocialLink")
+    fetch("https://optimize-agency.vercel.app/api/contactusapi/contactussocialLink")
       .then(res => res.json())
       .then(data => {
         setcontactmediumlink(data)

@@ -21,7 +21,7 @@ function TopStoriesSecond() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/Right_Sec_2_First_Image_Post_api")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/Right_Sec_2_First_Image_Post_api")
             .then(res => res.json())
             .then(data => {
                 setRight_Sec_2_First_Image_Post_api(data)
@@ -39,7 +39,7 @@ function TopStoriesSecond() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/Right_Sec_2_Image_Second_Post_api")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/Right_Sec_2_Image_Second_Post_api")
             .then(res => res.json())
             .then(data => {
                 setRight_Sec_2_Image_Second_Post_api(data)
@@ -57,7 +57,7 @@ function TopStoriesSecond() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/Right_Sec_2_List_Post_Form")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/Right_Sec_2_List_Post_Form")
             .then(res => res.json())
             .then(data => {
                 setRight_Sec_2_List_Post_Form(data)

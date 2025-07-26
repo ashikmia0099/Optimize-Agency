@@ -35,7 +35,7 @@ function SharedFooterHero() {
         };
 
         try {
-            const response = await fetch("http://localhost:3000/api/sharedfooterheroapi", {
+            const response = await fetch("https://optimize-agency.vercel.app/api/sharedfooterheroapi", {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(blogsData),

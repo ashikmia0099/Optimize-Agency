@@ -75,7 +75,7 @@ function Sec_2_List_Post_Form() {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/api/blogsapi/BlogPostapi", {
+      const response = await fetch("https://optimize-agency.vercel.app/api/blogsapi/BlogPostapi", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(blogsData),

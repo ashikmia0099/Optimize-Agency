@@ -23,7 +23,7 @@ function Question() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/sharedquestionapi")
+    fetch("https://optimize-agency.vercel.app/api/sharedquestionapi")
       .then(res => res.json())
       .then(data => {
         setquestionData(data)

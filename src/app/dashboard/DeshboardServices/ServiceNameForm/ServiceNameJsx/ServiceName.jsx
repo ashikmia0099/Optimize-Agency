@@ -26,7 +26,7 @@ function ServiceName() {
         };
 
         try {
-            const response = await fetch("http://localhost:3000/api/sarviceapi/AllServiceNameForm", {
+            const response = await fetch("https://optimize-agency.vercel.app/api/sarviceapi/AllServiceNameForm", {
                 method: "POST",
                 headers: {
                     'Content-Type': "application/json"

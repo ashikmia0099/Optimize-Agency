@@ -27,7 +27,7 @@ function FooterHero() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/sharedfooterheroapi")
+    fetch("https://optimize-agency.vercel.app/api/sharedfooterheroapi")
       .then(res => res.json())
       .then(data => {
         setsharedfooterherodata(data)

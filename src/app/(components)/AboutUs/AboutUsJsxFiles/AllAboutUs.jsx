@@ -26,7 +26,7 @@ function AllAboutUs() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/aboutapi/aboutdataapi")
+    fetch("https://optimize-agency.vercel.app/api/aboutapi/aboutdataapi")
       .then(res => res.json())
       .then(data => {
         setaboutData(data)

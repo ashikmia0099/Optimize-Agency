@@ -20,7 +20,7 @@ function ProgrammingSection1() {
 
     useEffect(() => {
 
-        fetch("http://localhost:3000/api/blogsapi/Sec_2_half_Banner_Post_api")
+        fetch("https://optimize-agency.vercel.app/api/blogsapi/Sec_2_half_Banner_Post_api")
             .then(res => res.json())
             .then(data => {
                 setSec_2_half_Banner_Post_Form(data)

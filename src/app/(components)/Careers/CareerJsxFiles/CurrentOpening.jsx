@@ -16,7 +16,7 @@ function CurrentOpening() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerSecondTitleFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerSecondTitleFormapi")
       .then(res => res.json())
       .then(data => {
         setcareeerSeciondtitle(data)
@@ -30,7 +30,7 @@ function CurrentOpening() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerSecondDataCategoryFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerSecondDataCategoryFormapi")
       .then(res => res.json())
       .then(data => {
         setcareeercategory(data)
@@ -47,7 +47,7 @@ function CurrentOpening() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/careerapi/CareerSecondDataFormapi")
+    fetch("https://optimize-agency.vercel.app/api/careerapi/CareerSecondDataFormapi")
       .then(res => res.json())
       .then(data => {
         setcareeerSeconddata(data)

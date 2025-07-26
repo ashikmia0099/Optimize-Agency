@@ -30,7 +30,7 @@ function WorkTitleandDes() {
             };
     
             try {
-                const response = await fetch("http://localhost:3000/api/workapi/titleanddescripform", {
+                const response = await fetch("https://optimize-agency.vercel.app/api/workapi/titleanddescripform", {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(blogsData),

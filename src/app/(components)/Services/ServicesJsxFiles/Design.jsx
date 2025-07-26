@@ -13,7 +13,7 @@ function Design() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/sarviceapi/ServiceAllCategoryForm")
+    fetch("https://optimize-agency.vercel.app/api/sarviceapi/ServiceAllCategoryForm")
       .then(res => res.json())
       .then(data => {
         setservicallcategory(data)
@@ -30,7 +30,7 @@ function Design() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/sarviceapi/AllServiceNameForm")
+    fetch("https://optimize-agency.vercel.app/api/sarviceapi/AllServiceNameForm")
       .then(res => res.json())
       .then(data => {
         setservicallName(data)
@@ -47,7 +47,7 @@ function Design() {
 
   useEffect(() => {
 
-    fetch("http://localhost:3000/api/sarviceapi/ServiceAllDataForm")
+    fetch("https://optimize-agency.vercel.app/api/sarviceapi/ServiceAllDataForm")
       .then(res => res.json())
       .then(data => {
         setservicallData(data)
